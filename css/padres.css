@@ -1,0 +1,31 @@
+.subtitulo2 {
+    font-size: 25px;
+    color: #a47333;
+}
+
+.image-container {
+    position: relative;
+    display: inline-block;
+}
+
+.image-container img {
+    width: 100px;
+    border-radius: 50%;
+}
+
+.imagen-base {
+    display: block;
+}
+
+.imagen-superpuesta {
+    position: absolute;
+    bottom: -25px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 80px;
+    z-index: 1;
+}
+
+.names {
+    font-size: 20px;
+}

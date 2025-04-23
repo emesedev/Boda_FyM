@@ -1,0 +1,22 @@
+.dress-code {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.section {
+    width: 45%;
+}
+
+.section img {
+    width: 100px;
+    height: auto;
+    display: block;
+    margin: auto;
+}
+
+.dress-code {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}

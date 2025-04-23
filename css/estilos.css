@@ -1,0 +1,126 @@
+/*PORTADA*/
+body {
+    font-family: serif;
+    font-style: italic;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    background-color: #f3f0eb;
+    color: #a47333;
+}
+
+.container {
+    max-width: 600px;
+    margin: auto;
+    background: white;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    border: 2px solid #fff;
+}
+
+.titulo {
+    font-size: 45px;
+    font-weight: bold;
+    color: #a47333;
+    text-transform: uppercase;
+}
+
+.subtitulo {
+    font-size: 30px;
+    color: #a47333;
+    text-transform: uppercase;
+}
+
+.stamp {
+    margin: 20px auto;
+    width: 220px;
+    height: 220px;
+    background: url('') no-repeat center center/cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.stamp h2,
+.stamp p {
+    margin: 0;
+    color: #a47333;
+}
+
+.stamp h2 {
+    font-size: 2em;
+    font-weight: bold;
+}
+
+.stamp p {
+    font-size: 1.2em;
+    font-weight: bold;
+    color: #a47333;
+}
+
+.image {
+    width: 225px;
+    position: absolute;
+    opacity: 30%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.image2 {
+    width: 295px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.image3 {
+    width: 325px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.central {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #a47333;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.plane {
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #a47333;
+    font-size: 20px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+
+.plane img {
+    width: 100px;
+}
+
+.texto {
+    font-size: 20px;
+    color: #a47333;
+    text-transform: uppercase;
+}
+
+.textoalt {
+    font-size: 20px;
+    color: #000;
+    text-transform: uppercase;
+}
+
+.icon {
+    font-size: 30px;
+}

@@ -1,0 +1,19 @@
+.footer-text {
+    font-size: 14px;
+    width: 80%;
+    display: inline-block;
+    color: #654720;
+}
+
+.textoImagen2 {
+    position: absolute;
+    top: 50%;
+    left: 20%;
+    right: 20%;
+    color: white;
+    font-size: 30px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.9);
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-transform: uppercase;
+}

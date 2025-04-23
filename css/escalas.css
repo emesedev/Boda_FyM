@@ -1,0 +1,20 @@
+.evento {
+    margin: 50px 0;
+}
+
+.detalle {
+    font-size: 20px;
+    color: #a47333;
+    text-transform: uppercase;
+}
+
+.mapa-btn {
+    background-color: #a47333;
+    color: white;
+    padding: 4px 16px;
+    border-radius: 8px;
+    text-decoration: none;
+    display: inline-block;
+    margin-top: 10px;
+    text-transform: none;
+}
