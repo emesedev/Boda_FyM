@@ -38,11 +38,3 @@ async function uploadPhoto() {
 
   document.getElementById("status").innerText = "Fotos cargadas correctmente !";
 }
-
-
-function showPhoto(dataURL) {
-    const gallery = document.getElementById("gallery");
-    const img = document.createElement("img");
-    img.src = dataURL;
-    gallery.appendChild(img);
-}
