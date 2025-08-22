@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <title></title>
+    <link rel="stylesheet" href="css/styles.css">
+    <script src="js/jquery-1.8.2.min.js"></script>
+    <script src="js/jquery.slideshowify.js"></script>
+    <script src="js/jquery.slideshowify.min.js"></script>
+    <script src="js/jquery.transit.js"></script>
+    <script src="js/jquery.transit.min.js"></script>
+</head>
+
+<body>
+    <div class="login-container">
+        <div class="login-box">
+            <h1 class="title">F & M</h1>
+
+            <p class="subtitle">¡Compartamos nuestros momentos!</p>
+
+            <input type="file" id="fileInput" accept="image/*" multiple>
+            
+            <button onclick="uploadPhoto()">Subir fotos</button>
+
+            <div id="status"></div>
+        </div>
+    </div>
+    
+    <img src="images/f1.jpg" style="display: none;">
+
+    <script src="js/functions.js"></script>
+    <script>
+        $('img').slideshowify({
+        });
+    </script>
+
+</body>
+
+</html>

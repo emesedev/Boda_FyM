@@ -1,0 +1,109 @@
+/* Contenedor principal centrado */
+.login-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh; /* Ocupa toda la pantalla */
+    padding: 1rem; /* Evita que se pegue a los bordes */
+    box-sizing: border-box;
+}
+
+/* Caja principal */
+.login-box {
+    background-color: rgba(255, 255, 255, 0.5);
+    padding: 2rem;
+    border-radius: 8px;
+    text-align: center;
+    width: 70%;
+    max-width: 600px; /* Limita el tamaño en pantallas grandes */
+    height: 400px;
+    box-sizing: border-box;
+}
+
+/* Títulos */
+.title {
+    font-size: 36px;
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+}
+
+.subtitle {
+    font-size: 24px;
+    margin-bottom: 2rem;
+}
+
+/* Inputs */
+input[type="file"] {
+    margin-bottom: 2rem;
+    width: 80%; /* Ajusta al contenedor */
+    max-width: 100%;
+}
+
+/* Botón */
+button {
+    padding: 10px 20px;
+    background: #a47333;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    margin-top: 10px;
+    margin-bottom: 2rem;
+    cursor: pointer;
+    width: 50%; /* Mejor en pantallas pequeñas */
+    max-width: 200px;
+}
+
+/* Mensaje de estado */
+#status {
+    color: #000;
+    font-size: 18px;
+    margin-top: 10px;
+}
+
+/* Título general h1 */
+h1 {
+    color: #a47333;
+}
+
+/* --- MEDIA QUERIES PARA MOVILES --- */
+@media (max-width: 768px) {
+    .login-box {
+        width: 80%;
+        padding: 2rem;
+    }
+
+    .title {
+        font-size: 36px;
+    }
+
+    .subtitle {
+        font-size: 24px;
+    }
+
+    button {
+        width: 80%;
+    }
+}
+
+@media (max-width: 480px) {
+    .login-box {
+        width: 90%;
+        padding: 1rem;
+    }
+
+    .title {
+        font-size: 36px;
+    }
+
+    .subtitle {
+        font-size: 24px;
+    }
+
+    input[type="file"] {
+        width: 90%;
+    }
+
+    button {
+        width: 80%;
+    }
+}
