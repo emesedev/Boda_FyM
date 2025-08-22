@@ -1,4 +1,4 @@
-const scriptURL = "https://script.google.com/macros/s/AKfycbz3krVzrSQLzVBKtUzBSppU1AiJ_QsMHFouAHXTMh7YwCZyUYpIski0TXSIUD8MtN5N/exec"; // reemplaza con la URL de tu Web App
+const scriptURL = "https://script.google.com/macros/s/AKfycbx1JgpKWUweeuAt2_gIRthm8tZ3uEeyPwUHtpNw55m4vfb8HNQDbT8MJIFqSCO4K6TP/exec";
 
 async function uploadPhoto() {
   const files = document.getElementById("fileInput").files;
