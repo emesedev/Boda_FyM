@@ -7,7 +7,7 @@ async function uploadPhoto() {
     return;
   }
 
-  document.getElementById("status").innerText = " Subiendo " + files.length + " fotos...";
+  document.getElementById("status").innerText = "Subiendo " + files.length + " fotos...";
 
   for (let i = 0; i < files.length; i++) {
     const file = files[i];
@@ -36,5 +36,5 @@ async function uploadPhoto() {
     reader.readAsDataURL(file);
   }
 
-  document.getElementById("status").innerText = "Fotos cargadas correctmente !";
+  document.getElementById("status").innerText = "Fotos cargadas correctamente";
 }
