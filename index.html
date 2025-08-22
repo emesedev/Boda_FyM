@@ -3,7 +3,8 @@
 
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-    <title></title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>F & M</title>
     <link rel="stylesheet" href="css/styles.css">
     <script src="js/jquery-1.8.2.min.js"></script>
     <script src="js/jquery.slideshowify.js"></script>
@@ -19,9 +20,14 @@
 
             <p class="subtitle">¡Compartamos nuestros momentos!</p>
 
-            <input type="file" id="fileInput" accept="image/*" multiple>
+            <div class="file-upload-wrapper">
+                <input type="file" id="fileInput" accept="image/*" multiple>
+                <label for="fileInput" class="custom-file-upload">
+                    Selecciona fotos
+                </label>
+            </div>
             
-            <button onclick="uploadPhoto()">Subir fotos</button>
+            <button onclick="uploadPhoto()">Cargar</button>
 
             <div id="status"></div>
         </div>
@@ -34,7 +40,5 @@
         $('img').slideshowify({
         });
     </script>
-
 </body>
-
 </html>
